@@ -4,7 +4,7 @@ export default function handler(req, res) {
     "4c230dbc7f6a4bfa6ad0aa73ff792374": "4186a7c2a15f590a9399886feaec4257",
     "otra-key-id": "otra-key-valor"
   };
-
+  
   const { kid } = req.query;
 
   if (kid && keys[kid]) {
